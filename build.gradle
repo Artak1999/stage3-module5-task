@@ -1,10 +1,20 @@
 plugins {
     id 'java-base'
     id "org.springframework.boot" version "${springBootVersion}"
+    id "org.sonarqube" version "3.0"
 }
 
 wrapper {
     gradleVersion = gradlewVersion
+}
+
+sonarqube {
+    properties {
+        property 'sonar.host.url', 'http://localhost:9000'
+        property "sonar.login", "5a9f1a8b110c652183ee778ecf9338059695ad61"
+        property "sonar.projectKey", "my-project"
+        property 'encoding', 'UTF-8'
+    }
 }
 
 subprojects {
