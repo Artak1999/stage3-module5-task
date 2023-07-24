@@ -49,6 +49,7 @@ subprojects {
     }
     test {
         useJUnitPlatform()
+        finalizedBy jacocoTestReport
     }
 }
 
@@ -61,6 +62,14 @@ task repack(type: Jar, dependsOn: ':module-main:build') {
             attributes(
                     'Main-Class': 'com.mjc.school.Main'
             )
+        }
+    }
+}
+
+jacocoTestReport {
+    dependsOn test{
+        reports{
+            xml.enabled(true)
         }
     }
 }
