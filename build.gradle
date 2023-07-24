@@ -2,6 +2,7 @@ plugins {
     id 'java-base'
     id "org.springframework.boot" version "${springBootVersion}"
     id "org.sonarqube" version "4.3.0.3225"
+    id 'jacoco'
 }
 
 wrapper {
@@ -12,6 +13,10 @@ sonarqube {
     properties {
         property "sonar.sourceEncoding", "UTF-8"
     }
+}
+
+jacoco {
+    toolVersion = "0.8.9"
 }
 
 subprojects {
