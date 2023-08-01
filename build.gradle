@@ -49,6 +49,14 @@ subprojects {
     }
     test {
         useJUnitPlatform()
+        finalizedBy jacocoTestReport
+    }
+
+    jacocoTestReport {
+        dependsOn test
+        reports {
+            xml.enabled true
+        }
     }
 }
 
