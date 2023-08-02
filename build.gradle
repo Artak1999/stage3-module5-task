@@ -58,6 +58,14 @@ subprojects {
             xml.enabled true
         }
     }
+
+    bootJar {
+        enabled = false
+    }
+
+    jar {
+        enabled = true
+    }
 }
 
 task repack(type: Jar, dependsOn: ':module-main:build') {
