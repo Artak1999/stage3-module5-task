@@ -10,8 +10,8 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-07-24T17:33:34+0400",
-    comments = "version: 1.5.2.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-7.6.jar, environment: Java 20 (Oracle Corporation)"
+    date = "2023-08-02T10:34:14+0400",
+    comments = "version: 1.5.2.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-7.6.jar, environment: Java 17.0.7 (Oracle Corporation)"
 )
 @Component
 public class TagMapperImpl implements TagMapper {
