@@ -3,6 +3,7 @@ plugins {
     id "org.springframework.boot" version "${springBootVersion}"
     id "org.sonarqube" version "4.3.0.3225"
     id 'jacoco'
+    id 'war'
 }
 
 wrapper {
