@@ -59,11 +59,7 @@ subprojects {
             xml.enabled true
         }
     }
-
-    bootJar {
-        enabled = true
-    }
-
+    
     war {
         enabled = true
     }
