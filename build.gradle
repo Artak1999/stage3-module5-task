@@ -61,7 +61,7 @@ subprojects {
     }
 
     bootJar {
-        enabled = false
+        enabled = true
     }
 
     war {
