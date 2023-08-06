@@ -64,6 +64,10 @@ subprojects {
         enabled = false
     }
 
+    bootWar {
+        mainClass = 'com.mjc.school.Main'
+    }
+
     war {
         enabled = true
     }
