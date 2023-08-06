@@ -64,6 +64,10 @@ subprojects {
         enabled = false
     }
 
+    jar {
+        enabled = true
+    }
+
     war {
         enabled = true
     }
