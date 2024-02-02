@@ -2,9 +2,9 @@ package com.mjc.school.implementation;
 
 import com.mjc.school.BaseRepository;
 import com.mjc.school.OnDelete;
+import com.mjc.school.model.implementation.AuthorModel;
 import com.mjc.school.model.implementation.NewsModel;
 import org.springframework.stereotype.Repository;
-
 import jakarta.persistence.*;
 import java.util.List;
 import java.util.Optional;
@@ -58,5 +58,17 @@ public class NewsRepository implements BaseRepository<NewsModel,Long> {
     @Override
     public boolean existById(Long id) {
         return readById(id).isPresent();
+    }
+
+    public long countNews() {
+        return (long) entityManager.createQuery("select count(*) from NewsModel").getSingleResult();
+    }
+
+    public List<AuthorModel> getAuthor() {
+        return entityManager.createQuery("select a from AuthorModel a", AuthorModel.class).getResultList();
+    }
+
+    public List<NewsModel> getAll(){
+        return entityManager.createQuery("select n from NewsModel n", NewsModel.class).getResultList();
     }
 }

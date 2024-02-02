@@ -3,6 +3,10 @@ package com.mjc.school.controller.impl;
 import com.mjc.school.controller.BaseControllers;
 import com.mjc.school.dto.NewsDtoRequest;
 import com.mjc.school.dto.NewsDtoResponse;
+import com.mjc.school.implementation.NewsRepo;
+import com.mjc.school.implementation.NewsRepository;
+import com.mjc.school.model.implementation.AuthorModel;
+import com.mjc.school.model.implementation.NewsModel;
 import com.mjc.school.services.NewsService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
@@ -11,18 +15,24 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @RestController
 @ControllerAdvice
 @RequestMapping(value = "/news")
+@CrossOrigin(origins = "http://localhost:3000", methods = {RequestMethod.PUT,RequestMethod.GET,RequestMethod.POST,RequestMethod.DELETE})
 public class NewsController implements BaseControllers<NewsDtoRequest, NewsDtoResponse, Long> {
 
     private final NewsService newsService;
+    public final NewsRepository newsRepository;
+    public final NewsRepo newsRepo;
 
     @Autowired
-    public NewsController(NewsService newsService) {
+    public NewsController(NewsService newsService, NewsRepository newsRepository, NewsRepo newsRepo) {
         this.newsService = newsService;
+        this.newsRepository = newsRepository;
+        this.newsRepo = newsRepo;
     }
 
     @Override
@@ -106,5 +116,43 @@ public class NewsController implements BaseControllers<NewsDtoRequest, NewsDtoRe
     @ResponseStatus(HttpStatus.OK)
     public List<NewsDtoResponse> getNewsByTagNames(@RequestParam(name = "name") List<String> tagNames, List<Long> tagIds, String authorName, String title, String content, int size, int page, String sort) {
         return this.newsService.getNewsByCriteria(tagNames, tagIds, authorName, title, content, size, page, sort);
+    }
+
+    @GetMapping("/count")
+    public long countNews(){
+        return newsRepository.countNews();
+    }
+
+    @GetMapping("/authors")
+    public List<AuthorModel> getAuthors(){
+        return newsRepository.getAuthor();
+    }
+
+    @GetMapping("/getAll")
+    public List<NewsModel> getAllNews(){
+        return newsRepository.getAll();
+    }
+
+    @PostMapping(value = "/add-news", consumes = {"application/json"})
+    public void saveNews(@RequestBody NewsModel newNews){
+        newNews.setCreateDate(LocalDateTime.now());
+        newNews.setLastUpdateDate(LocalDateTime.now());
+        newsRepo.save(newNews);
+    }
+
+    @DeleteMapping("/id/{id}")
+    public void deleteNews(@PathVariable Long id){
+        newsRepo.deleteById(id);
+    }
+
+    @PutMapping("/update/{id}")
+    public void updateNews(@PathVariable Long id, @RequestBody NewsModel newsModel) throws Exception {
+        NewsModel updateNews = newsRepo.findById(id).orElseThrow(Exception::new);
+        updateNews.setTitle(newsModel.getTitle());
+        updateNews.setAuthor(newsModel.getAuthor());
+        updateNews.setContent(newsModel.getContent());
+        updateNews.setCreateDate(LocalDateTime.now());
+        updateNews.setLastUpdateDate(LocalDateTime.now());
+        newsRepo.save(updateNews);
     }
 }

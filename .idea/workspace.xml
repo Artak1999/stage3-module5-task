@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02382cbb-a748-4064-bbd1-0daa463c9b1e" name="Changes" comment="Spring with React">
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/dependencies-accessors/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.6/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module-repository/stage3-module5-task.module-repository.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module-service/stage3-module5-task.module-service.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/module-web/stage3-module5-task.module-web.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/security/stage3-module5-task.security.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/img/basket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/img/basket1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/img/news-book.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/img/pencil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/newspage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/pagination/Pagination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/pagination/SelectLimit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/AddNews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/DeleteNews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/EditNews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/signin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/setupTests.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/BaseRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/OnDelete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/implementation/AuthorRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/implementation/CommentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/implementation/NewsRepo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/implementation/NewsRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/implementation/TagRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/model/BaseEntity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/model/implementation/AuthorModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/model/implementation/CommentModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/model/implementation/NewsModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/model/implementation/TagModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/libs/module-repository-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/resolvedMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/tmp/compileJava/compileTransaction/stash-dir/NewsRepository.class.uniqueId0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/implementation/NewsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/BaseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/Validator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/AuthorDtoRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/AuthorDtoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/CommentDtoRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/CommentDtoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/NewsDtoRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/NewsDtoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/TagDtoRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/TagDtoResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/exception/Error.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/exception/ServiceException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/exception/ValidatorException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/implementation/AuthorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/implementation/CommentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/implementation/NewsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/implementation/TagServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/AuthorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/AuthorMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/CommentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/CommentMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/NewsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/NewsMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/TagMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/TagMapperImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/services/AuthorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/services/CommentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/services/NewsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/services/TagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/generated/sources/annotationProcessor/java/main/com/mjc/school/interfaces/AuthorMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/generated/sources/annotationProcessor/java/main/com/mjc/school/interfaces/CommentMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/generated/sources/annotationProcessor/java/main/com/mjc/school/interfaces/NewsMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/generated/sources/annotationProcessor/java/main/com/mjc/school/interfaces/TagMapperImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/libs/module-service-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/resolvedMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-service/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/BaseControllers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/impl/AuthorController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/impl/CommentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/impl/NewsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/impl/TagController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/libs/module-web-plain.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/resolvedMainClassName" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/tmp/compileJava/compileTransaction/stash-dir/NewsController.class.uniqueId0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-web/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/General page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Login page.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/add news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/after adding news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/after editing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/edit news.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/incorrect password.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/incorrect user name.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/login without fileds.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/pagination (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/pagination.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/ApplicationAuditAware.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/ApplicationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/JwtAuthenticationFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/SecurityConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationRequest$AuthenticationRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationResponse$AuthenticationResponseBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/ChangePasswordRequest$ChangePasswordRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/ChangePasswordRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/RegisterRequest$RegisterRequestBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/RegisterRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/enumiration/Permission.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/enumiration/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/enumiration/TokenType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/models/Token$TokenBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/models/Token.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/models/User$UserBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/models/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/repositories/RoleRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/repositories/TokenRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/repositories/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/service/AuthenticationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/service/JwtService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/service/LogoutService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/resources/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/security/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/implementation/NewsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/implementation/NewsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/model/implementation/NewsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/model/implementation/NewsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/model/implementation/TagModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/model/implementation/TagModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-repository/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/module-repository/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/controller/impl/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/controller/impl/NewsController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/module-security">
+      <ProjectState>
+        <dataType path="$PROJECT_DIR$/module-security">
+          <ModuleState>
+            <id value="com.intellij.externalSystem.JavaModuleData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ContentRootData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.LibraryDependencyData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ModuleData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ModuleDependencyData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.ModuleSdkData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.TestData" />
+            <id value="com.intellij.openapi.externalSystem.model.project.dependencies.ProjectDependencies" />
+            <id value="com.intellij.openapi.externalSystem.model.task.TaskData" />
+            <id value="com.jetbrains.packagesearch.intellij.plugin.gradle.PublicGradleConfigurationReportModel" />
+            <id value="org.jetbrains.idea.gradle.ext.profiler.model.JavaTaskData" />
+            <id value="org.jetbrains.kotlin.android.synthetic.idea.AndroidExtensionProperties" />
+            <id value="org.jetbrains.plugins.gradle.model.GradleExtensions" />
+            <id value="org.jetbrains.plugins.gradle.model.data.AnnotationProcessingData" />
+            <id value="org.jetbrains.plugins.gradle.model.data.AnnotationProcessingData$AnnotationProcessorOutput" />
+            <id value="org.jetbrains.plugins.gradle.model.data.BuildScriptClasspathData" />
+            <id value="org.jetbrains.plugins.gradle.model.data.GradleProjectBuildScriptData" />
+            <id value="org.jetbrains.plugins.gradle.model.data.GradleSourceSetData" />
+          </ModuleState>
+        </dataType>
+      </ProjectState>
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/module-security">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stage3-module5-task" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="stage3-module5-task" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RBj5oR3CVp9KoJKBNKmSSmcMvs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-JavaScript: Code Vision Performance&quot;: &quot;JavaScript: code vision performance watcher&quot;,
+    &quot;Notification.DoNotAsk-JavaScript: Code Vision Performance&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/David/Downloads/Vedomost-master&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.6321839&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;b40681e2d04967d16e3a9f72bbb56a09&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mjc.school.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-security\src\main\java\com\mjc\school\repositories" />
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-security\src\main\java\com\mjc\school\models" />
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-security\src\main\java\com\mjc\school\services" />
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-security\src\main\java\com\mjc\school\dto" />
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-security\src\main\java\com\mjc\school\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\screenshots" />
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\src\components\img" />
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\src\components\popup" />
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\src\components\newspage" />
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\src\components" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mjc.school.exception" />
+      <recent name="com.mjc.school.utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="stage3-module5-task [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="stage3-module5-task [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="stage3-module5-task [war]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="war" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="stage3-module4-task" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="stage3-module4-task" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="stage3-module5-task.module-web.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mjc.school.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="module-security.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.modulesecurity.ModuleSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.stage3-module5-task [build]" />
+        <item itemvalue="Gradle.stage3-module5-task [clean]" />
+        <item itemvalue="Gradle.stage3-module5-task [war]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02382cbb-a748-4064-bbd1-0daa463c9b1e" name="Changes" comment="" />
+      <created>1686730188944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686730188944</updated>
+      <workItem from="1686730208411" duration="7679000" />
+      <workItem from="1689589672820" duration="129000" />
+      <workItem from="1689589863286" duration="226000" />
+      <workItem from="1689590139945" duration="10000" />
+      <workItem from="1689590377101" duration="25000" />
+      <workItem from="1689590446789" duration="151000" />
+      <workItem from="1689590664246" duration="178000" />
+      <workItem from="1689590898380" duration="26000" />
+      <workItem from="1689608720745" duration="496000" />
+      <workItem from="1689761784252" duration="103000" />
+      <workItem from="1689762372428" duration="3499000" />
+      <workItem from="1689766723286" duration="1807000" />
+      <workItem from="1689774456760" duration="1026000" />
+      <workItem from="1689784207573" duration="1304000" />
+      <workItem from="1689785827044" duration="461000" />
+      <workItem from="1689833357317" duration="1030000" />
+      <workItem from="1689881587902" duration="832000" />
+      <workItem from="1689919231580" duration="3710000" />
+      <workItem from="1690028293428" duration="344000" />
+      <workItem from="1690200167338" duration="663000" />
+      <workItem from="1690202928688" duration="2132000" />
+      <workItem from="1690205313985" duration="559000" />
+      <workItem from="1690218916806" duration="519000" />
+      <workItem from="1690442282827" duration="504000" />
+      <workItem from="1690464190858" duration="68000" />
+      <workItem from="1690465050836" duration="24000" />
+      <workItem from="1690480890249" duration="85000" />
+      <workItem from="1690481874472" duration="20000" />
+      <workItem from="1690531282170" duration="359000" />
+      <workItem from="1690531989055" duration="411000" />
+      <workItem from="1690901390252" duration="512000" />
+      <workItem from="1690903687177" duration="263000" />
+      <workItem from="1690910639881" duration="1302000" />
+      <workItem from="1690912498672" duration="376000" />
+      <workItem from="1690913184047" duration="780000" />
+      <workItem from="1690914040188" duration="164000" />
+      <workItem from="1690914267847" duration="234000" />
+      <workItem from="1690957631396" duration="475000" />
+      <workItem from="1690958612921" duration="677000" />
+      <workItem from="1690980823408" duration="665000" />
+      <workItem from="1691045135325" duration="324000" />
+      <workItem from="1691240631890" duration="693000" />
+      <workItem from="1691257117177" duration="254000" />
+      <workItem from="1691309176178" duration="342000" />
+      <workItem from="1691310746147" duration="854000" />
+      <workItem from="1691311835874" duration="275000" />
+      <workItem from="1691317368745" duration="275000" />
+      <workItem from="1691488077033" duration="204000" />
+      <workItem from="1691488493462" duration="164000" />
+      <workItem from="1691674297016" duration="173000" />
+      <workItem from="1691674546093" duration="61000" />
+      <workItem from="1691737555571" duration="219000" />
+      <workItem from="1691742198654" duration="32000" />
+      <workItem from="1691828124841" duration="274000" />
+      <workItem from="1699351080880" duration="154000" />
+      <workItem from="1699441857423" duration="64000" />
+      <workItem from="1701077594207" duration="4147000" />
+      <workItem from="1701090936187" duration="5140000" />
+      <workItem from="1701098129842" duration="1241000" />
+      <workItem from="1701102928085" duration="1164000" />
+      <workItem from="1701107987609" duration="939000" />
+      <workItem from="1701162241154" duration="1930000" />
+      <workItem from="1701164383184" duration="993000" />
+      <workItem from="1701185067184" duration="1906000" />
+      <workItem from="1701193523254" duration="2023000" />
+      <workItem from="1701252922597" duration="1238000" />
+      <workItem from="1701257463572" duration="552000" />
+      <workItem from="1701259697120" duration="4633000" />
+      <workItem from="1701269858906" duration="2773000" />
+      <workItem from="1701355021757" duration="235000" />
+      <workItem from="1702129002091" duration="1138000" />
+      <workItem from="1702130245472" duration="1664000" />
+      <workItem from="1702140067993" duration="1176000" />
+      <workItem from="1702142672913" duration="1206000" />
+      <workItem from="1702209035136" duration="1331000" />
+      <workItem from="1702216671326" duration="4629000" />
+      <workItem from="1702229536460" duration="5102000" />
+      <workItem from="1702290933752" duration="14200000" />
+      <workItem from="1702314123363" duration="4045000" />
+      <workItem from="1702368926072" duration="965000" />
+      <workItem from="1702460340321" duration="6034000" />
+      <workItem from="1702472474223" duration="7968000" />
+      <workItem from="1702488504299" duration="3804000" />
+      <workItem from="1702493437192" duration="1971000" />
+      <workItem from="1702558297630" duration="7137000" />
+      <workItem from="1702575999074" duration="4162000" />
+      <workItem from="1702663363789" duration="4742000" />
+      <workItem from="1702670046285" duration="2593000" />
+      <workItem from="1702751865526" duration="1031000" />
+      <workItem from="1702752983697" duration="1305000" />
+      <workItem from="1702806718518" duration="3223000" />
+      <workItem from="1702840171581" duration="1762000" />
+      <workItem from="1702892362955" duration="815000" />
+      <workItem from="1702893631347" duration="15016000" />
+      <workItem from="1703004002857" duration="48000" />
+      <workItem from="1703009941801" duration="23000" />
+      <workItem from="1703064578021" duration="3643000" />
+      <workItem from="1703072378841" duration="3017000" />
+      <workItem from="1703081260010" duration="1843000" />
+      <workItem from="1703092371063" duration="3580000" />
+      <workItem from="1703183600795" duration="3884000" />
+      <workItem from="1703233748695" duration="4689000" />
+      <workItem from="1703254795285" duration="3200000" />
+      <workItem from="1703428217229" duration="4041000" />
+      <workItem from="1703438756441" duration="527000" />
+      <workItem from="1703440624543" duration="3635000" />
+      <workItem from="1703487336831" duration="5322000" />
+      <workItem from="1703507726298" duration="2987000" />
+      <workItem from="1703578902365" duration="1061000" />
+      <workItem from="1703598522804" duration="8031000" />
+      <workItem from="1703757606656" duration="98000" />
+      <workItem from="1703758562798" duration="4553000" />
+      <workItem from="1703855876092" duration="6938000" />
+      <workItem from="1703924757236" duration="6628000" />
+      <workItem from="1703933886321" duration="12051000" />
+      <workItem from="1704468124192" duration="2140000" />
+      <workItem from="1704476464568" duration="2831000" />
+      <workItem from="1704552178092" duration="393000" />
+      <workItem from="1704809218806" duration="4802000" />
+      <workItem from="1704880413560" duration="2556000" />
+      <workItem from="1704886387318" duration="2672000" />
+      <workItem from="1704907527884" duration="4895000" />
+      <workItem from="1704975658133" duration="1262000" />
+      <workItem from="1704989777242" duration="668000" />
+      <workItem from="1704992364693" duration="9038000" />
+      <workItem from="1705048737146" duration="4196000" />
+      <workItem from="1705058976407" duration="102000" />
+      <workItem from="1705068101847" duration="3972000" />
+      <workItem from="1705081630894" duration="3484000" />
+      <workItem from="1705139300635" duration="9369000" />
+      <workItem from="1705155732310" duration="1155000" />
+      <workItem from="1705157191553" duration="482000" />
+      <workItem from="1705158001323" duration="590000" />
+      <workItem from="1705248731512" duration="2315000" />
+      <workItem from="1705256497922" duration="2903000" />
+      <workItem from="1705344160808" duration="502000" />
+      <workItem from="1705405230427" duration="3601000" />
+      <workItem from="1705416665523" duration="1266000" />
+      <workItem from="1705428357748" duration="3350000" />
+      <workItem from="1705518980384" duration="32000" />
+      <workItem from="1705602331528" duration="2953000" />
+      <workItem from="1705677792366" duration="2494000" />
+      <workItem from="1705686762518" duration="718000" />
+      <workItem from="1705689224158" duration="2912000" />
+      <workItem from="1705740103196" duration="3332000" />
+      <workItem from="1705772184698" duration="1539000" />
+      <workItem from="1705774072735" duration="549000" />
+      <workItem from="1705840523753" duration="937000" />
+      <workItem from="1705922683221" duration="4229000" />
+      <workItem from="1705928525695" duration="1181000" />
+      <workItem from="1705946458267" duration="2104000" />
+      <workItem from="1705949027842" duration="1264000" />
+      <workItem from="1706002465566" duration="2772000" />
+      <workItem from="1706005607265" duration="190000" />
+      <workItem from="1706021835702" duration="1107000" />
+      <workItem from="1706084457349" duration="2026000" />
+      <workItem from="1706121379518" duration="144000" />
+      <workItem from="1706121823058" duration="2779000" />
+      <workItem from="1706174377668" duration="5025000" />
+      <workItem from="1706190556508" duration="1042000" />
+      <workItem from="1706258502700" duration="1604000" />
+      <workItem from="1706268713852" duration="14780000" />
+      <workItem from="1706291372346" duration="893000" />
+      <workItem from="1706347811555" duration="1641000" />
+      <workItem from="1706358689256" duration="6927000" />
+      <workItem from="1706368892236" duration="3700000" />
+      <workItem from="1706441831276" duration="159000" />
+      <workItem from="1706458136960" duration="52000" />
+      <workItem from="1706461923678" duration="93000" />
+      <workItem from="1706514826511" duration="2609000" />
+      <workItem from="1706528415409" duration="764000" />
+      <workItem from="1706620560187" duration="803000" />
+      <workItem from="1706710604297" duration="1843000" />
+      <workItem from="1706714138098" duration="5904000" />
+      <workItem from="1706781510585" duration="9961000" />
+      <workItem from="1706805013990" duration="9932000" />
+      <workItem from="1706863222567" duration="2766000" />
+      <workItem from="1706879252974" duration="884000" />
+    </task>
+    <task id="LOCAL-00001" summary="Spring with Rest final.">
+      <created>1686737827648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686737827648</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Spring with Rest final.">
+      <created>1686738162078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686738162078</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Spring with Rest final.">
+      <created>1686739002299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686739002299</updated>
+    </task>
+    <task id="LOCAL-00004" summary="SonarQube">
+      <created>1689834016319</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689834016319</updated>
+    </task>
+    <task id="LOCAL-00005" summary="SonarQube">
+      <created>1689834129638</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1689834129638</updated>
+    </task>
+    <task id="LOCAL-00006" summary="SonarQube">
+      <created>1689924080341</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689924080341</updated>
+    </task>
+    <task id="LOCAL-00007" summary="SonarQube">
+      <created>1690203672823</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690203672823</updated>
+    </task>
+    <task id="LOCAL-00008" summary="SonarQube">
+      <created>1690204641233</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690204641233</updated>
+    </task>
+    <task id="LOCAL-00009" summary="SonarQube">
+      <created>1690204822498</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1690204822498</updated>
+    </task>
+    <task id="LOCAL-00010" summary="SonarQube">
+      <created>1690901852060</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690901852060</updated>
+    </task>
+    <task id="LOCAL-00011" summary="SonarQube">
+      <created>1690911960674</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690911960674</updated>
+    </task>
+    <task id="LOCAL-00012" summary="SonarQube">
+      <created>1690958116872</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1690958116872</updated>
+    </task>
+    <task id="LOCAL-00013" summary="SonarQube">
+      <created>1690959314790</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690959314790</updated>
+    </task>
+    <task id="LOCAL-00014" summary="SonarQube">
+      <created>1690981531541</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690981531541</updated>
+    </task>
+    <task id="LOCAL-00015" summary="SonarQube">
+      <created>1691045450660</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691045450660</updated>
+    </task>
+    <task id="LOCAL-00016" summary="SonarQube">
+      <created>1691241277801</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691241277801</updated>
+    </task>
+    <task id="LOCAL-00017" summary="SonarQube">
+      <created>1691309348903</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1691309348904</updated>
+    </task>
+    <task id="LOCAL-00018" summary="tomcat">
+      <created>1691309515400</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1691309515400</updated>
+    </task>
+    <task id="LOCAL-00019" summary="tomcat">
+      <created>1691311490234</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1691311490234</updated>
+    </task>
+    <task id="LOCAL-00020" summary="tomcat">
+      <created>1691312111593</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1691312111593</updated>
+    </task>
+    <task id="LOCAL-00021" summary="tomcat">
+      <created>1691317645075</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1691317645075</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Spring Security.">
+      <created>1701279681048</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1701279681048</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Spring with Rest final." />
+    <MESSAGE value="SonarQube" />
+    <MESSAGE value="tomcat" />
+    <MESSAGE value="Spring Security." />
+    <MESSAGE value="Spring with React" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring with React" />
+  </component>
+</project>

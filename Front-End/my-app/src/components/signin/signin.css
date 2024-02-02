@@ -1,0 +1,37 @@
+.header{
+    background-color: #071f36;
+    height: 70px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.navbar{
+    color: white;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.body-div{
+    width: 500px;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 5px 10px 0;
+}
+.form{
+    width: 350px;
+    margin-left: 15%;
+}
+.footer{
+    background-color: #071f36;
+    color: grey;
+    text-align: center;
+    position: fixed;
+    height: 50px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

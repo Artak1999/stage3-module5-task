@@ -43,6 +43,7 @@ subprojects {
         implementation "org.springframework.boot:spring-boot-starter-oauth2-client:$oauth2"
         implementation "io.springfox:springfox-boot-starter:$springFox"
         implementation "io.jsonwebtoken:jjwt:$jwt"
+        implementation 'org.hibernate:hibernate-core:6.4.1.Final'
 
         testImplementation 'org.springframework.boot:spring-boot-starter-test'
         testImplementation "com.tngtech.archunit:archunit-junit5:$archUnitVersion"

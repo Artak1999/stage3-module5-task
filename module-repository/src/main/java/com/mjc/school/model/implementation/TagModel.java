@@ -1,5 +1,7 @@
 package com.mjc.school.model.implementation;
 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 import com.mjc.school.model.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -19,6 +21,7 @@ public class TagModel implements BaseEntity<Long> {
     private Long id;
     @Column(length = 15, unique = true, nullable = false)
     private String name;
+    @JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class,property = "id")
     @ManyToMany(mappedBy = "tag", fetch = FetchType.LAZY)
     List<NewsModel> news = new ArrayList<>();
 }
