@@ -5,189 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02382cbb-a748-4064-bbd1-0daa463c9b1e" name="Changes" comment="Spring with React">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.6/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/module-repository/stage3-module5-task.module-repository.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/module-service/stage3-module5-task.module-service.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/module-web/stage3-module5-task.module-web.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/security/stage3-module5-task.security.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/img/basket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/img/basket1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/img/news-book.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/img/pencil.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/newspage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/pagination/Pagination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/pagination/SelectLimit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/AddNews.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/DeleteNews.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/EditNews.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/signin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/reportWebVitals.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Front-End/my-app/src/setupTests.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/bootWar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/BaseRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/OnDelete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/implementation/AuthorRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/implementation/CommentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/implementation/NewsRepo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/implementation/NewsRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/implementation/TagRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/model/BaseEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/model/implementation/AuthorModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/model/implementation/CommentModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/model/implementation/NewsModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/classes/java/main/com/mjc/school/model/implementation/TagModel.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/libs/module-repository-plain.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/resolvedMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/resources/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/tmp/compileJava/compileTransaction/stash-dir/NewsRepository.class.uniqueId0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/implementation/NewsRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/BaseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/Validator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/AuthorDtoRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/AuthorDtoResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/CommentDtoRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/CommentDtoResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/NewsDtoRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/NewsDtoResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/TagDtoRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/dto/TagDtoResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/exception/Error.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/exception/ServiceException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/exception/ValidatorException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/implementation/AuthorServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/implementation/CommentServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/implementation/NewsServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/implementation/TagServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/AuthorMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/AuthorMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/CommentMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/CommentMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/NewsMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/NewsMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/TagMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/interfaces/TagMapperImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/services/AuthorService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/services/CommentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/services/NewsService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/classes/java/main/com/mjc/school/services/TagService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/generated/sources/annotationProcessor/java/main/com/mjc/school/interfaces/AuthorMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/generated/sources/annotationProcessor/java/main/com/mjc/school/interfaces/CommentMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/generated/sources/annotationProcessor/java/main/com/mjc/school/interfaces/NewsMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/generated/sources/annotationProcessor/java/main/com/mjc/school/interfaces/TagMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/libs/module-service-plain.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/resolvedMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-service/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/BaseControllers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/impl/AuthorController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/impl/CommentController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/impl/NewsController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/impl/TagController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/libs/module-web-plain.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/resolvedMainClassName" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/tmp/compileJava/compileTransaction/stash-dir/NewsController.class.uniqueId0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module-web/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/General page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/Login page.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/add news.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/after adding news.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/after editing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/edit news.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/incorrect password.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/incorrect user name.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/login without fileds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/pagination (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/pagination.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshots/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/ApplicationAuditAware.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/ApplicationConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/JwtAuthenticationFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/SecurityConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AdminController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationRequest$AuthenticationRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationResponse$AuthenticationResponseBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/ChangePasswordRequest$ChangePasswordRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/ChangePasswordRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/RegisterRequest$RegisterRequestBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/RegisterRequest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/enumiration/Permission.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/enumiration/Role.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/enumiration/TokenType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/models/Token$TokenBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/models/Token.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/models/User$UserBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/models/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/repositories/RoleRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/repositories/TokenRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/repositories/UserRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/service/AuthenticationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/service/JwtService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/service/LogoutService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/resources/main/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/implementation/NewsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/implementation/NewsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/model/implementation/NewsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/model/implementation/NewsModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/model/implementation/TagModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-repository/src/main/java/com/mjc/school/model/implementation/TagModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-repository/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/module-repository/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/controller/impl/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/controller/impl/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/module-repository/stage3-module5-task.module-repository.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/module-repository/stage3-module5-task.module-repository.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/newspage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/newspage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/signin.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/signin.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,10 +88,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="Class" />
         <option value="Interface" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -285,23 +116,25 @@
     &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
     &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/David/Downloads/Vedomost-master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/David/IdeaProjects/stage3-module5-task&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.6321839&quot;,
     &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b40681e2d04967d16e3a9f72bbb56a09&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;841e5573386c1b8b4ab9fd885d3d2c61&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.7\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -623,7 +456,29 @@
       <workItem from="1706781510585" duration="9961000" />
       <workItem from="1706805013990" duration="9932000" />
       <workItem from="1706863222567" duration="2766000" />
-      <workItem from="1706879252974" duration="884000" />
+      <workItem from="1706879252974" duration="1484000" />
+      <workItem from="1707412909635" duration="437000" />
+      <workItem from="1707415021526" duration="425000" />
+      <workItem from="1707417134078" duration="68000" />
+      <workItem from="1707417646001" duration="3000" />
+      <workItem from="1707417890011" duration="56000" />
+      <workItem from="1707560961468" duration="66000" />
+      <workItem from="1707561976860" duration="810000" />
+      <workItem from="1713539909732" duration="84000" />
+      <workItem from="1713540043931" duration="21000" />
+      <workItem from="1713540098142" duration="40000" />
+      <workItem from="1713601963230" duration="632000" />
+      <workItem from="1713632862747" duration="273000" />
+      <workItem from="1720627288444" duration="12000" />
+      <workItem from="1728669969106" duration="42000" />
+      <workItem from="1758052096984" duration="1710000" />
+      <workItem from="1758134831366" duration="439000" />
+      <workItem from="1758214699124" duration="504000" />
+      <workItem from="1758220613610" duration="742000" />
+      <workItem from="1758388826781" duration="1290000" />
+      <workItem from="1758470763862" duration="580000" />
+      <workItem from="1758559953215" duration="629000" />
+      <workItem from="1759054862367" duration="2580000" />
     </task>
     <task id="LOCAL-00001" summary="Spring with Rest final.">
       <created>1686737827648</created>
@@ -779,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701279681048</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Spring with React">
+      <created>1706880643902</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706880643902</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

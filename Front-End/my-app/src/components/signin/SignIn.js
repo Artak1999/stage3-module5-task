@@ -6,10 +6,10 @@ import {
     Row,
     Col,
     Form,
-    FormControl,
-    Nav,
-    Navbar,
+    FormControl
 } from "react-bootstrap";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
 
 class SignIn extends Component {
     constructor(props) {
@@ -47,31 +47,8 @@ class SignIn extends Component {
     render() {
         return (
             <Container>
-                <header className="header">
-                    <Navbar collapseOnSelect expand="lg">
-                        <Container>
-                            <Navbar.Brand href="#home">
-                                <img
-                                    src={require("../img/news-book.png")}
-                                    className="d-inline-block align-top"
-                                    alt="React Bootstrap logo"
-                                />
-                            </Navbar.Brand>
-                            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                            <Navbar.Collapse id="responsive-navbar-nav">
-                                <Nav className="me-auto">
-                                    <Nav.Link href="/" className="navbar">HOME</Nav.Link>
-                                    <Nav.Link href="/" className="navbar">NEWS</Nav.Link>
-                                    <Nav.Link href="/" className="navbar">ABOUT</Nav.Link>
-                                </Nav>
-                                <Nav>
-                                    <Nav.Link href="/" className="navbar">SIGN IN</Nav.Link>
-                                    <Nav.Link href="#signup" className="navbar">SIGN UP</Nav.Link>
-                                </Nav>
-                            </Navbar.Collapse>
-                        </Container>
-                    </Navbar>
-                </header>
+
+                <Header />
 
                 <Row className="row">
                     <Col md="4">
@@ -110,9 +87,7 @@ class SignIn extends Component {
                     </Col>
                 </Row>
 
-                <footer className="footer">
-                    <h5 style={{marginTop: "1%"}}>&#169; 2022 MJC School Student. All Rights Reserved</h5>
-                </footer>
+                <Footer />
 
             </Container>
         );

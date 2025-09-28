@@ -1,15 +1,6 @@
 body{
     background-color: #a9bffa;
 }
-
-.header{
-    background-color: #071f36;
-    height: 70px;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-}
 .navbar{
     color: white;
 }
@@ -142,14 +133,4 @@ body{
     height: 40px;
     margin-left: 620px;
     margin-top: -55px;
-}
-.footer{
-    background-color: #071f36;
-    color: grey;
-    text-align: center;
-    position: fixed;
-    height: 50px;
-    left: 0;
-    bottom: 0;
-    right: 0;
 }

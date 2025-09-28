@@ -1,11 +1,13 @@
 import React, {useEffect, useState} from "react";
 import "./newspage.css"
-import {Container, Nav, Navbar,} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 import AddNews from "../popup/AddNews";
 import DeleteNews from "../popup/DeleteNews";
 import EditNews from "../popup/EditNews";
 import Pagination from "../pagination/Pagination";
 import SelectLimit from "../pagination/SelectLimit";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
 
 const App = () => {
 
@@ -89,27 +91,7 @@ const App = () => {
     return (
         <Container>
 
-            <header className="header">
-                <Navbar collapseOnSelect expand="lg">
-                    <Navbar.Brand href="/newspage">
-                        <img
-                            src={require("../img/news-book.png")}
-                            className="d-inline-block align-top"
-                            alt="React Bootstrap logo"
-                        />
-                    </Navbar.Brand>
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="/newspage" className="navbar">HOME</Nav.Link>
-                            <Nav.Link href="/newspage" className="navbar">NEWS</Nav.Link>
-                            <Nav.Link href="/newspage" className="navbar">ABOUT</Nav.Link>
-                        </Nav>
-                        <Nav>
-                            <Nav.Link href="/newspage" className="navbar">SIGN UP</Nav.Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Navbar>
-            </header>
+            <Header />
 
             <center>
                 <div style={{width: "820px", height: "600px"}}>
@@ -162,9 +144,7 @@ const App = () => {
                 </div>
             </center>
 
-            <footer className="footer">
-                <h5 style={{marginTop: "1%"}}>&#169; 2022 MJC School Student. All Rights Reserved</h5>
-            </footer>
+            <Footer />
 
         </Container>
     );
