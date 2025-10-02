@@ -10,7 +10,7 @@ class App extends Component {
                 <BrowserRouter>
                     <Routes>
                         <Route exact path="/" element={<SignIn/>} />
-                        <Route path="/newspage" element={<NewsPage/>} />
+                        <Route path="/news" element={<NewsPage/>} />
                     </Routes>
                 </BrowserRouter>
             </div>

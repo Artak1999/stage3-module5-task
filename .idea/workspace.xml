@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02382cbb-a748-4064-bbd1-0daa463c9b1e" name="Changes" comment="Spring with React">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/module-repository/stage3-module5-task.module-repository.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/module-repository/stage3-module5-task.module-repository.main.iml" afterDir="false" />
+    <list default="true" id="02382cbb-a748-4064-bbd1-0daa463c9b1e" name="Changes" comment="fixed header and footer duplication.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/newspage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/newspage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/signin.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/signin.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -478,7 +471,9 @@
       <workItem from="1758388826781" duration="1290000" />
       <workItem from="1758470763862" duration="580000" />
       <workItem from="1758559953215" duration="629000" />
-      <workItem from="1759054862367" duration="2580000" />
+      <workItem from="1759054862367" duration="2907000" />
+      <workItem from="1759081020267" duration="866000" />
+      <workItem from="1759424898057" duration="5003000" />
     </task>
     <task id="LOCAL-00001" summary="Spring with Rest final.">
       <created>1686737827648</created>
@@ -641,7 +636,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706880643902</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fixed header and footer duplication.">
+      <option name="closed" value="true" />
+      <created>1759059150910</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1759059150910</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -664,6 +667,7 @@
     <MESSAGE value="tomcat" />
     <MESSAGE value="Spring Security." />
     <MESSAGE value="Spring with React" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring with React" />
+    <MESSAGE value="fixed header and footer duplication." />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed header and footer duplication." />
   </component>
 </project>

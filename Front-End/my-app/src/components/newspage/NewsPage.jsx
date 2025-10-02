@@ -9,7 +9,7 @@ import SelectLimit from "../pagination/SelectLimit";
 import Header from "../header/Header";
 import Footer from "../footer/Footer";
 
-const App = () => {
+const NewsPage = () => {
 
     const [allNews, setAllNews] = useState([]);
     const [author, setAuthor] = useState([]);
@@ -150,4 +150,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default NewsPage;
