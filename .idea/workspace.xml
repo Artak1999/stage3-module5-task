@@ -4,14 +4,50 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02382cbb-a748-4064-bbd1-0daa463c9b1e" name="Changes" comment="fixed header and footer duplication.">
+    <list default="true" id="02382cbb-a748-4064-bbd1-0daa463c9b1e" name="Changes" comment="approved code quality.">
+      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/configs/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/signin.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/signin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Footer/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/img/basket.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/assets/img/basket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/img/basket1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/assets/img/basket1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/img/news-book.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/assets/img/news-book.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/img/pencil.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/assets/img/pencil.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/pages/News/News.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/newspage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/pages/News/News.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/pagination/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Pagination/Pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/pagination/SelectLimit.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Pagination/SelectLimit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/AddNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Popup/AddNews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/DeleteNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Popup/DeleteNews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/EditNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Popup/EditNews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/pages/SignIn/SignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/signin.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/pages/SignIn/SignIn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-repository/build/libs/module-repository-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/module-repository/build/libs/module-repository-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-repository/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-repository/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/build/tmp/compileJava/compileTransaction/stash-dir/NewsController.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/repositories/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/configs/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/configs/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/repositories/RoleRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/resources/application.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,10 +117,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="JavaScript File" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -99,60 +135,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Notification.DisplayName-DoNotAsk-JavaScript: Code Vision Performance&quot;: &quot;JavaScript: code vision performance watcher&quot;,
-    &quot;Notification.DoNotAsk-JavaScript: Code Vision Performance&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/David/IdeaProjects/stage3-module5-task&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.6321839&quot;,
-    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;841e5573386c1b8b4ab9fd885d3d2c61&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.7\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-JavaScript: Code Vision Performance": "JavaScript: code vision performance watcher",
+    "Notification.DoNotAsk-JavaScript: Code Vision Performance": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/David/IdeaProjects/stage3-module5-task/module-web/src/main/resources",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.6321839",
+    "settings.build.tools.auto.reload": "SELECTIVE",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "spring.configuration.checksum": "841e5573386c1b8b4ab9fd885d3d2c61",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.7\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mjc.school.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-web\src\main\resources" />
       <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-security\src\main\java\com\mjc\school\repositories" />
       <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-security\src\main\java\com\mjc\school\models" />
       <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-security\src\main\java\com\mjc\school\services" />
       <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-security\src\main\java\com\mjc\school\dto" />
-      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\module-security\src\main\java\com\mjc\school\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\src\pages" />
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\src\assets" />
+      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\public" />
       <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\screenshots" />
       <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\src\components\img" />
-      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\src\components\popup" />
-      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\src\components\newspage" />
-      <recent name="C:\Users\David\IdeaProjects\stage3-module5-task\Front-End\my-app\src\components" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.mjc.school.exception" />
@@ -473,7 +509,32 @@
       <workItem from="1758559953215" duration="629000" />
       <workItem from="1759054862367" duration="2907000" />
       <workItem from="1759081020267" duration="866000" />
-      <workItem from="1759424898057" duration="5003000" />
+      <workItem from="1759424898057" duration="5289000" />
+      <workItem from="1759599521684" duration="8242000" />
+      <workItem from="1759690228668" duration="648000" />
+      <workItem from="1759756287218" duration="342000" />
+      <workItem from="1759762123403" duration="1443000" />
+      <workItem from="1759771345990" duration="917000" />
+      <workItem from="1759857004450" duration="193000" />
+      <workItem from="1759858217306" duration="2418000" />
+      <workItem from="1759941871381" duration="4684000" />
+      <workItem from="1760028233419" duration="417000" />
+      <workItem from="1760035868559" duration="2804000" />
+      <workItem from="1760103146734" duration="2387000" />
+      <workItem from="1760110511712" duration="2844000" />
+      <workItem from="1760170270819" duration="5693000" />
+      <workItem from="1760206751235" duration="2469000" />
+      <workItem from="1760371726632" duration="2985000" />
+      <workItem from="1760377916243" duration="2383000" />
+      <workItem from="1760455397505" duration="662000" />
+      <workItem from="1760457242426" duration="7000" />
+      <workItem from="1760457489757" duration="3016000" />
+      <workItem from="1760468191731" duration="6016000" />
+      <workItem from="1760546488389" duration="1622000" />
+      <workItem from="1760556951681" duration="1226000" />
+      <workItem from="1760558395884" duration="635000" />
+      <workItem from="1760627483996" duration="643000" />
+      <workItem from="1760636960945" duration="5015000" />
     </task>
     <task id="LOCAL-00001" summary="Spring with Rest final.">
       <created>1686737827648</created>
@@ -644,7 +705,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759059150910</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="approved code quality.">
+      <option name="closed" value="true" />
+      <created>1759431339619</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1759431339619</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -668,6 +737,7 @@
     <MESSAGE value="Spring Security." />
     <MESSAGE value="Spring with React" />
     <MESSAGE value="fixed header and footer duplication." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed header and footer duplication." />
+    <MESSAGE value="approved code quality." />
+    <option name="LAST_COMMIT_MESSAGE" value="approved code quality." />
   </component>
 </project>

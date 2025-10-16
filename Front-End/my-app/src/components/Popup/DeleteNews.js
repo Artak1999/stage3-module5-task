@@ -20,7 +20,7 @@ function DeleteNews(props) {
     return (
         <>
             <img
-                src={require("../img/basket.png")}
+                src={require("../../assets/img/basket.png")}
                 style={{float: "right", cursor: "pointer"}}
                 alt="basket icone"
                 onClick={handleShow}
@@ -30,7 +30,7 @@ function DeleteNews(props) {
                 <Modal.Header closeButton>
                     <Modal.Title>
                         <img
-                            src={require("../img/basket1.png")}
+                            src={require("../../assets/img/basket1.png")}
                             style={{marginLeft: "200px"}}
                             alt="basket icone"
                         />

@@ -29,7 +29,7 @@ function EditNews(props) {
     return (
         <>
             <img
-                src={require("../img/pencil.png")}
+                src={require("../../assets/img/pencil.png")}
                 style={{float: "right", cursor: "pointer"}}
                 alt="pencile icone"
                 onClick={handleShow}

@@ -33,3 +33,11 @@
     height: 50px;
     margin-bottom: 30px;
 }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.div-button {
+    text-align: center;
+}

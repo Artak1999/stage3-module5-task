@@ -1,6 +1,6 @@
 import React from "react";
 import {Container, Nav, Navbar,} from "react-bootstrap";
-import "./header.css"
+import "./Header.css"
 
 const Header = () => {
     return (
@@ -9,7 +9,7 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand href="#home">
                         <img
-                            src={require("../img/news-book.png")}
+                            src={require("../../assets/img/news-book.png")}
                             className="d-inline-block align-top"
                             alt="React Bootstrap logo"
                         />
@@ -23,7 +23,7 @@ const Header = () => {
                         </Nav>
                         <Nav>
                             <Nav.Link href="/" className="navbar">SIGN IN</Nav.Link>
-                            <Nav.Link href="#signup" className="navbar">SIGN UP</Nav.Link>
+                            <Nav.Link href="/signup" className="navbar">SIGN UP</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -1,4 +1,5 @@
 dependencies {
     implementation project(':module-service')
     implementation project(':module-repository')
+    implementation project(':security')
 }

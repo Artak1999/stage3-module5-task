@@ -1,15 +1,16 @@
 import React, {useEffect, useState} from "react";
-import "./newspage.css"
+import "./News.css"
 import {Container} from "react-bootstrap";
-import AddNews from "../popup/AddNews";
-import DeleteNews from "../popup/DeleteNews";
-import EditNews from "../popup/EditNews";
-import Pagination from "../pagination/Pagination";
-import SelectLimit from "../pagination/SelectLimit";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
+import AddNews from "../../components/Popup/AddNews";
+import DeleteNews from "../../components/Popup/DeleteNews";
+import EditNews from "../../components/Popup/EditNews";
+import Pagination from "../../components/Pagination/Pagination";
+import SelectLimit from "../../components/Pagination/SelectLimit";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import { getAllNews, getAuthors, getNewsCount } from "../../services/api";
 
-const NewsPage = () => {
+const News = () => {
 
     const [allNews, setAllNews] = useState([]);
     const [author, setAuthor] = useState([]);
@@ -22,68 +23,33 @@ const NewsPage = () => {
     let totalPage = Math.ceil(allNews.length / contentPerPage);
 
     useEffect(() => {
-        const fetchNews = async () => {
-            try {
-                fetch('news/getAll')
-                    .then((response) => response.json())
-                    .then((data) => {
-                        setAllNews(data);
-                    })
-            } catch (error) {
-                console.error('Error fetching all news:', error);
-            }
-        }
-        fetchNews().catch(console.error);
-    }, []);
+        getAllNews()
+            .then(setAllNews)
+            .catch(console.error);
 
-    useEffect(() => {
-        const fetchAuthors = async () => {
-            try {
-                fetch('news/authors')
-                    .then((response) => response.json())
-                    .then((data) => {
-                        setAuthor(data);
-                    })
-            } catch (error) {
-                console.error('Error fetching all news:', error);
-            }
-        }
-        fetchAuthors().catch(console.error);
-    }, []);
+        getAuthors()
+            .then(setAuthor)
+            .catch(console.error);
 
-    useEffect(() => {
-        const fetchCount = async () => {
-            try {
-                fetch('news/count')
-                    .then((response) => response.text())
-                    .then((responseText) => {
-                        setCount(responseText);
-                    })
-            } catch (error) {
-                console.error('Error fetching count of news:', error);
-            }
-        }
-        fetchCount().catch(console.error);
+        getNewsCount()
+            .then(setCount)
+            .catch(console.error);
     }, []);
 
     function handlePageChange(value){
         if(value === "&laquo;" || value === "... ") {
             setCurrentPage(1);
-        }
-        else if(value === "&lsaquo;"){
+        } else if(value === "&lsaquo;") {
             if(currentPage !== 1) {
                 setCurrentPage(currentPage - 1);
             }
-        }
-        else if(value === "&rsaquo;"){
+        } else if(value === "&rsaquo;") {
             if(currentPage !== totalPage) {
                 setCurrentPage(currentPage + 1);
             }
-        }
-        else if(value === "&raquo;" || value === " ...") {
+        } else if(value === "&raquo;" || value === " ...") {
             setCurrentPage(totalPage);
-        }
-        else {
+        } else {
             setCurrentPage(value);
         }
     }
@@ -150,4 +116,4 @@ const NewsPage = () => {
     );
 };
 
-export default NewsPage;
+export default News;
