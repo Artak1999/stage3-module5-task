@@ -3,6 +3,7 @@ package com.mjc.school.service;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mjc.school.controller.AuthenticationRequest;
 import com.mjc.school.controller.RegisterRequest;
+import com.mjc.school.enumiration.Role;
 import com.mjc.school.enumiration.TokenType;
 import com.mjc.school.models.Token;
 import com.mjc.school.repositories.TokenRepository;
@@ -31,11 +32,10 @@ public class AuthenticationService {
 
     public AuthenticationResponse register(RegisterRequest request) {
         var user = User.builder()
-                .name(request.getFirstname())
-                .name(request.getLastname())
+                .name(request.getUsername())
                 .email(request.getEmail())
                 .password(passwordEncoder.encode(request.getPassword()))
-                .role(request.getRole())
+                .role(Role.USER)
                 .build();
         var savedUser = repository.save(user);
         var jwtToken = jwtService.generateToken(user);
@@ -50,11 +50,11 @@ public class AuthenticationService {
     public AuthenticationResponse authenticate(AuthenticationRequest request) {
         authenticationManager.authenticate(
                 new UsernamePasswordAuthenticationToken(
-                        request.getEmail(),
+                        request.getUsername(),
                         request.getPassword()
                 )
         );
-        var user = repository.findByEmail(request.getEmail())
+        var user = repository.findByName(request.getUsername())
                 .orElseThrow();
         var jwtToken = jwtService.generateToken(user);
         var refreshToken = jwtService.generateRefreshToken(user);
@@ -63,6 +63,7 @@ public class AuthenticationService {
         return AuthenticationResponse.builder()
                 .accessToken(jwtToken)
                 .refreshToken(refreshToken)
+                .username(user.getName())
                 .build();
     }
 
@@ -94,14 +95,14 @@ public class AuthenticationService {
     ) throws IOException {
         final String authHeader = request.getHeader(HttpHeaders.AUTHORIZATION);
         final String refreshToken;
-        final String userEmail;
+        final String username;
         if (authHeader == null ||!authHeader.startsWith("Bearer ")) {
             return;
         }
         refreshToken = authHeader.substring(7);
-        userEmail = jwtService.extractUsername(refreshToken);
-        if (userEmail != null) {
-            var user = this.repository.findByEmail(userEmail)
+        username = jwtService.extractUsername(refreshToken);
+        if (username != null) {
+            var user = this.repository.findByName(username)
                     .orElseThrow();
             if (jwtService.isTokenValid(refreshToken, user)) {
                 var accessToken = jwtService.generateToken(user);

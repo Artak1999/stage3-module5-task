@@ -21,7 +21,6 @@ import java.util.List;
 @RestController
 @ControllerAdvice
 @RequestMapping(value = "/news")
-@CrossOrigin(origins = "http://localhost:3000", methods = {RequestMethod.PUT,RequestMethod.GET,RequestMethod.POST,RequestMethod.DELETE})
 public class NewsController implements BaseControllers<NewsDtoRequest, NewsDtoResponse, Long> {
 
     private final NewsService newsService;

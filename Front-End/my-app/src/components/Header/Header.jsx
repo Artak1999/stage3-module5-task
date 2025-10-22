@@ -1,8 +1,23 @@
 import React from "react";
 import {Container, Nav, Navbar,} from "react-bootstrap";
 import "./Header.css"
+import {getCurrentUser, logout} from "../../services/auth";
 
 const Header = () => {
+
+    const authLinks = (
+        <Nav>
+            <Nav.Link onClick={logout} className="navbar">SIGN OUT</Nav.Link>
+        </Nav>
+    );
+
+    const guestLinks = (
+        <Nav>
+            <Nav.Link href="/" className="navbar">SIGN IN</Nav.Link>
+            <Nav.Link href="/signup" className="navbar">SIGN UP</Nav.Link>
+        </Nav>
+    );
+
     return (
         <header className="header">
             <Navbar collapseOnSelect expand="lg">
@@ -22,8 +37,7 @@ const Header = () => {
                             <Nav.Link href="/" className="navbar">ABOUT</Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="/" className="navbar">SIGN IN</Nav.Link>
-                            <Nav.Link href="/signup" className="navbar">SIGN UP</Nav.Link>
+                            { getCurrentUser() ? authLinks : guestLinks }
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

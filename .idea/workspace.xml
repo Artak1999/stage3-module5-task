@@ -4,50 +4,49 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02382cbb-a748-4064-bbd1-0daa463c9b1e" name="Changes" comment="approved code quality.">
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/configs/CorsConfig.java" afterDir="false" />
+    <list default="true" id="02382cbb-a748-4064-bbd1-0daa463c9b1e" name="Changes" comment="approved code quality and configured security config for cors.">
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/f82a7e97-8dca-4744-972d-e50b410a5c02.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Header/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/img/basket.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/assets/img/basket.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/img/basket1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/assets/img/basket1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/img/news-book.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/assets/img/news-book.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/img/pencil.png" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/assets/img/pencil.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/NewsPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/pages/News/News.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/newspage/newspage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/pages/News/News.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/pagination/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Pagination/Pagination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/pagination/SelectLimit.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Pagination/SelectLimit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/AddNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Popup/AddNews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/DeleteNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Popup/DeleteNews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/popup/EditNews.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Popup/EditNews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/pages/SignIn/SignIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/signin/signin.css" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/pages/SignIn/SignIn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-repository/build/libs/module-repository-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/module-repository/build/libs/module-repository-plain.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-repository/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-repository/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-web/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-web/build/tmp/compileJava/compileTransaction/stash-dir/NewsController.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/pages/SignIn/SignIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/pages/SignIn/SignIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/pages/SignUp/SignUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/pages/SignUp/SignUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Front-End/my-app/src/services/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/Front-End/my-app/src/services/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/impl/NewsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/build/classes/java/main/com/mjc/school/controller/impl/NewsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/build/resources/main/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module-web/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/controller/impl/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/src/main/java/com/mjc/school/controller/impl/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/module-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/ApplicationConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/configs/SecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/repositories/RoleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationRequest$AuthenticationRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationRequest$AuthenticationRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationResponse$AuthenticationResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationResponse$AuthenticationResponseBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/AuthenticationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/RegisterRequest$RegisterRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/RegisterRequest$RegisterRequestBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/RegisterRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/controller/RegisterRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/repositories/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/repositories/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/service/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/classes/java/main/com/mjc/school/service/AuthenticationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/libs/security-plain.jar" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/libs/security-plain.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/build/tmp/compileJava/compileTransaction/stash-dir/SecurityConfiguration.class.uniqueId0" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/security/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/security/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/configs/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/configs/ApplicationConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/configs/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/configs/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/repositories/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/security/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/controller/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/controller/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/controller/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/controller/AuthenticationResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/controller/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/controller/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/security/src/main/java/com/mjc/school/service/AuthenticationService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,43 +134,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Notification.DisplayName-DoNotAsk-JavaScript: Code Vision Performance": "JavaScript: code vision performance watcher",
-    "Notification.DoNotAsk-JavaScript: Code Vision Performance": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/David/IdeaProjects/stage3-module5-task/module-web/src/main/resources",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.6321839",
-    "settings.build.tools.auto.reload": "SELECTIVE",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "spring.configuration.checksum": "841e5573386c1b8b4ab9fd885d3d2c61",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.7\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Notification.DisplayName-DoNotAsk-JavaScript: Code Vision Performance&quot;: &quot;JavaScript: code vision performance watcher&quot;,
+    &quot;Notification.DoNotAsk-JavaScript: Code Vision Performance&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/David/IdeaProjects/stage3-module5-task/module-web/src/main/resources&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.6321839&quot;,
+    &quot;settings.build.tools.auto.reload&quot;: &quot;SELECTIVE&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;841e5573386c1b8b4ab9fd885d3d2c61&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2023.1.7\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.mjc.school.service" />
@@ -534,7 +533,15 @@
       <workItem from="1760556951681" duration="1226000" />
       <workItem from="1760558395884" duration="635000" />
       <workItem from="1760627483996" duration="643000" />
-      <workItem from="1760636960945" duration="5015000" />
+      <workItem from="1760636960945" duration="5451000" />
+      <workItem from="1760722081292" duration="54000" />
+      <workItem from="1760773836522" duration="4869000" />
+      <workItem from="1760794114767" duration="8997000" />
+      <workItem from="1760901024570" duration="657000" />
+      <workItem from="1760974802347" duration="3873000" />
+      <workItem from="1761060755668" duration="4627000" />
+      <workItem from="1761155185655" duration="490000" />
+      <workItem from="1761156431196" duration="5491000" />
     </task>
     <task id="LOCAL-00001" summary="Spring with Rest final.">
       <created>1686737827648</created>
@@ -713,7 +720,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759431339619</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="approved code quality and configured security config for cors.">
+      <option name="closed" value="true" />
+      <created>1760642531474</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1760642531474</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,6 +753,7 @@
     <MESSAGE value="Spring with React" />
     <MESSAGE value="fixed header and footer duplication." />
     <MESSAGE value="approved code quality." />
-    <option name="LAST_COMMIT_MESSAGE" value="approved code quality." />
+    <MESSAGE value="approved code quality and configured security config for cors." />
+    <option name="LAST_COMMIT_MESSAGE" value="approved code quality and configured security config for cors." />
   </component>
 </project>

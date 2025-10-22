@@ -18,21 +18,24 @@ export const login = (username, password) => {
         })
         .then((response) => {
             if (response.data.username) {
-                localStorage.setItem("user", JSON.stringify(response.data));
+                localStorage.setItem("username", JSON.stringify(response.data));
             }
             return response.data;
         });
 };
 
 export const logout = () => {
-    localStorage.removeItem("user");
     return axios
-        .post(API_URL + "")                      // need to implement url
+        .post(API_URL + "logout")
         .then((response) => {
+            if(response.status === 200) {
+                localStorage.removeItem("username");
+                window.location.href = "/";
+            }
             return response.data;
-        });
+        })
 };
 
 export const getCurrentUser = () => {
-    return JSON.parse(localStorage.getItem("user"));
+    return JSON.parse(localStorage.getItem("username"));
 };

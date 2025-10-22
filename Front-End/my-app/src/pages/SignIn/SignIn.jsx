@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 const SignIn = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const [error, setError] = useState('');
+    const [message, setMessage] = useState('');
     const navigate = useNavigate();
 
     const onChange = (e) => {
@@ -23,22 +23,22 @@ const SignIn = () => {
 
     const onLoginClick = () => {
         if (username.length === 0 || password.length === 0) {
-            setError("Fill in blanks fields");
+            setMessage("Fill in blanks fields");
         } else if (username.length < 3 || username.length > 30) {
-            setError("User name length must not be less than 3 and greater than 30");
+            setMessage("User name length must not be less than 3 and greater than 30");
         } else if (password.length < 4 || password.length > 30) {
-            setError("Password length must not be less than 4 and greater than 30");
+            setMessage("Password length must not be less than 4 and greater than 30");
         } else {
             login(username,password)
                 .then( (data) => {
                     if(data && data.username) {
                         navigate("/news");
                     } else {
-                        setError("User not found.");
+                        setMessage("User not found.");
                     }
                 })
                 .catch( () => {
-                    setError("Login failed. Please check your credentials.");
+                    setMessage("Login failed. Please check your credentials.");
                 });
         }
     };
@@ -74,7 +74,7 @@ const SignIn = () => {
                         </Form>
                         <div className="div-button">
                             <Button color="primary" className="login-button" onClick={onLoginClick}>SIGN IN</Button>
-                            <p className="login-error">{error}</p>
+                            <p className="login-error">{message}</p>
                         </div>
                     </div>
                 </Col>
